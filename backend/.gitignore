@@ -10,3 +10,8 @@ wheels/
 .venv
 .env
 .env
+
+# Ignore model binaries and git backups
+backend/src/ai_refactor/Llama-2-7B-Chat-GGML/*.bin
+backend/src/ai_refactor/Llama-2-7B-Chat-GGML/llama-2-7b-chat*.ggml*
+**/.git.bak
