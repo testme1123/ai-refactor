@@ -1,7 +1,0 @@
-# Git attributes for model files. Prefer storing model binaries with Git LFS.
-# If you use Git LFS, install it with: https://git-lfs.github.com/
-# Then run: git lfs install
-
-# Track common model binary extensions with LFS
-backend/src/ai_refactor/Llama-2-7B-Chat-GGML/*.bin filter=lfs diff=lfs merge=lfs -text
-backend/src/ai_refactor/Llama-2-7B-Chat-GGML/*.ggml* filter=lfs diff=lfs merge=lfs -text
